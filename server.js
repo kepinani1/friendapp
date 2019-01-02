@@ -17,5 +17,5 @@ app.listen(PORT, function() {
     console.log("Server listening on: http://localhost:" + PORT);
   });
 
-  require("./FriendFinder/app/routing/apiRoutes")(app);
-  require("./FriendFinder/app/routing/htmlRoutes")(app);
+  require("./app/routing/apiRoutes")(app);
+  require("./app/routing/htmlRoutes")(app);
